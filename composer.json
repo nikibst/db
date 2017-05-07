@@ -1,0 +1,24 @@
+{
+    "name": "bastas/db",
+    "description": "PHP Database Adapter",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "3.0.0RC4 as 2.8.1",
+        "object-calisthenics/phpcs-calisthenics-rules": "dev-master",
+        "tracy/tracy": "2.4.6",
+        "behat/behat": "3.3.0"
+    },
+    "authors": [
+        {
+            "name": "Nikitas Bastas",
+            "email": "nikitasbst@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bastas\\Db\\": "bastas-db/src"
+        }
+    }
+}

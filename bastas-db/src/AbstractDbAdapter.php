@@ -28,4 +28,9 @@ abstract class AbstractDbAdapter
      * @var string
      */
     protected $dsn = '';
+
+    public function getPdoAdapter(): \PDO
+    {
+        return $this->adapter;
+    }
 }
